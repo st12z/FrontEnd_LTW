@@ -1,0 +1,62 @@
+form {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+  padding: 10px 0;
+}
+
+input[type="text"]:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+input[type="text"]:hover {
+  border-color: #888;
+}
+.photo {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-top: 20px;
+}
+.photo img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.photo button {
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #efad00;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+}
+.photo button:hover {
+  background-color: white;
+  cursor: pointer;
+}

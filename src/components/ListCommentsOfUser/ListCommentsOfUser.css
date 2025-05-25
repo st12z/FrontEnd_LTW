@@ -1,0 +1,17 @@
+.comments .comments_item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  width: 350px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.comments .comments_item .image {
+  margin-right: 20px;
+  img {
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}

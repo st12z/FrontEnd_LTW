@@ -1,0 +1,70 @@
+.photo_item {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  width: 500px;
+}
+a {
+  font-weight: 600;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+.time-icon {
+  width: 20px;
+}
+.photo_images {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.photo_images img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.time-icon {
+  width: 20px;
+}
+.photo_time {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.photo_time span {
+  font-size: 15px;
+  margin-left: 5px;
+  font-weight: 600;
+}
+.photo_time .day {
+  position: absolute;
+  right: 0;
+  top: -32px;
+}
+.photo_action img {
+  width: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.photo_action {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.showmore {
+  cursor: pointer;
+  font-size: 400;
+  color: black;
+}
+.input-send {
+  position: relative;
+  img {
+    width: 30px;
+    position: absolute;
+    right: 0;
+  }
+}
